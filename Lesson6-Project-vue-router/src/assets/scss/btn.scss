@@ -1,0 +1,10 @@
+.btn {
+    &-custom {
+        background-color: $brand-green;
+        color: $brand-white;
+    }
+
+    &:disabled {
+        opacity: 0.7;
+    }
+}
