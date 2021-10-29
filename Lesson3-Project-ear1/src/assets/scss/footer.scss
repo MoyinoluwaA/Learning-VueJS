@@ -1,0 +1,13 @@
+.footer {
+    background-color: $brand-gray;
+    padding: 90px 0;
+
+    &-title {
+        color: $brand-light-50;
+        font-size: $font-size-20;
+    }
+    &-text {
+        color: $brand-gray-50;
+        font-size: $font-size-18;
+    }
+}

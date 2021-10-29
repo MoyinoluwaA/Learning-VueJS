@@ -1,0 +1,36 @@
+.about {
+    margin-top: 120px;
+
+    &-text {
+        color: $brand-gray;
+    }
+    &-heading {
+        letter-spacing: $letter-spacing-5;
+        font-weight: $font-wt-600;
+        font-size: 40px;
+        padding-top: 68px;
+        margin: 12px 0 26px;
+    }
+    &-sub-text {
+        color: $brand-gray-60;
+        line-height: $line-height-33;
+    }
+}
+
+.image {
+    &-box {
+        width: fit-content;
+        margin-top: 42px;
+    }
+}
+
+.box {
+    background-color: $brand-light;
+    padding: 95px 0;
+
+    &-green {
+        background-color: $brand-green;
+        padding: 69px 78px;
+        border-radius: 30px;
+    }
+}
