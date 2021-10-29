@@ -1,8 +1,9 @@
-# vue-router
+# VUE-JS
 This is a compiled list of my learning process of VueJS. The folders include tasks and projects.
 
 ## Getting started
 Clone git repository [here](https://github.com/MoyinoluwaA/Learning-VueJS)
+
 Go to project directory e.g cd Lesson1-Vue-cdn
 
 ## Project setup
