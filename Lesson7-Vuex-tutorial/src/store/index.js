@@ -36,7 +36,7 @@ export default new Vuex.Store({
 		setCurrentId: (state) => state.currentId += 1,
 		setDeletedBooks:(state, payload) => state.deletedBooks.push(payload),
 		updateBooks: (state, payload) => state.books = payload,
-		updateDeletedBooks: (state, payload) => state.books = payload
+		updateDeletedBooks: (state, payload) => state.deletedBooks = payload
 	},
 	actions: {
 		addBook(context, payload) {
@@ -44,7 +44,7 @@ export default new Vuex.Store({
 			const data = {
 				...payload,
 				id: currentId,
-			};
+			}
 			context.commit('setBooks', data)
 			context.commit('setCurrentId')
 		},
